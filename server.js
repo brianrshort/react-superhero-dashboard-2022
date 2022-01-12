@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 mongoose.connect(
-    process.env.mongoURI || "mongodb://localhost/dashboard",
+    process.env.mongoURI || "mongodb://localhost/hero",
     { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
 ).then(() => {
     console.log("Connected to MongoDB database! Nice work!")
