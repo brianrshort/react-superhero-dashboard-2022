@@ -6,6 +6,9 @@ const app = express();
 
 const db = require("./models");
 
+const comics = require("./routes/comic-routes.js");
+const movies = require("./routes/movie-routes.js");
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
@@ -15,7 +18,7 @@ if (process.env.NODE_ENV === "production") {
 
 mongoose.connect(
     process.env.mongoURI || "mongodb://localhost/hero",
-    { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
+    //{ useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
 ).then(() => {
     console.log("Connected to MongoDB database! Nice work!")
 })
@@ -23,9 +26,12 @@ mongoose.connect(
     console.log(err);
 });
 
-app.get("*", function(req, res) {
-    res.sendFile(path.join(__dirname, "client/build/index.html"));
-  });
+// app.get("*", function(req, res) {
+//     res.sendFile(path.join(__dirname, "client/build/index.html"));
+//   });
+
+app.use('/api/comics', comics);
+app.use('/api/movies', movies);
 
 const port = process.env.PORT || 3001;
 
