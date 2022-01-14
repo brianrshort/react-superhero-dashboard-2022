@@ -7,6 +7,15 @@ let db = require('../models');
 
 let config = require("../config/config");
 
+
+router.get("/", (req, res) => {
+    db.Comic.find({})
+        .then(comics => {
+            console.log(comics);
+            res.send(comics);
+        })
+})
+
 router.get("/marvel/:id", (req, res) => {
     let int = parseInt(req.params.id);
     db.Comic.findOne({ comic_order: int }).then(comic => {
