@@ -57,7 +57,7 @@ class Comics extends React.Component {
     render() {
         
     let comicsMap = this.state.data.map((obj) => {
-        return <p key={obj.title}>{obj.title}</p>;
+        return <p key={obj.order}>{obj.title}</p>;
     })
     
     return (
