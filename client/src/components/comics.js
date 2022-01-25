@@ -10,11 +10,13 @@ class Comics extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            data: []
+            comics: [],
+            titles: []
         }
     }
     
     componentDidMount() {
+        this.setState({comics: Arr[0]});
         let newData = [];
         for (var i = 0; i < Arr[0].length; i++) {
             let comic = Arr[0][i];
@@ -32,7 +34,7 @@ class Comics extends React.Component {
                 let sortData = newData.sort((a, b) => {
                     return a.order - b.order;
                 });
-                this.setState({data: sortData});
+                this.setState({titles: sortData});
                 //console.log("State: " + JSON.stringify(this.state));
             })
         }
@@ -56,7 +58,7 @@ class Comics extends React.Component {
 
     render() {
         
-    let comicsMap = this.state.data.map((obj) => {
+    let comicsMap = this.state.titles.map((obj) => {
         return <p key={obj.order}>{obj.title}</p>;
     })
     
