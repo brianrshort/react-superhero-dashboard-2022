@@ -82,7 +82,14 @@ class Movies extends React.Component {
         let filmMap = (string) => {
             const objMap = this.state.titles.map(obj => {
                 if (obj.topic === string) {
-                    return <p key={obj.topic + obj.order}>{obj.title}</p>;
+                    return (
+                    <div class="card m-2" key={obj.topic + obj.order}>
+                        <div class="card-body">
+                            {obj.title}
+                        </div>
+                    </div>
+                    )
+                    //return <p key={obj.topic + obj.order}>{obj.title}</p>;
                 }
             })
             return objMap;
@@ -91,7 +98,7 @@ class Movies extends React.Component {
     let moviesMap = this.state.topics.map((string) => {
         return (
             <div key={string}>
-                <h1>{string}</h1>
+                <h2>{string}</h2>
                 {filmMap(string)}
             </div>
         )
@@ -107,9 +114,10 @@ class Movies extends React.Component {
     
     return (
     <div className="container">
-        Movies
-        <hr />
+        <h1>Movies</h1>
+        
         <input type="search" placeholder="search comics" onChange={e => this.setState({searchField: e.target.value})} />
+        <hr />
         {moviesMap}
     </div>
     )
