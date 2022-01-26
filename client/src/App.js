@@ -3,6 +3,8 @@ import axios from "axios";
 
 import Home from "./components/home";
 import Comics from "./components/comics";
+//import Comic from "./components/comic";
+import Movies from "./components/movies";
 
 function App() {
   return (
@@ -10,10 +12,11 @@ function App() {
       <Routes>
       <Route exact path="/" element={<Home />} />
       <Route path="/comics" element={<Comics />} />
+      {/* <Route path="/comics/:id" element={<Comic />} /> */}
+      <Route path="/movies" element={<Movies />} />
       {/* 
-      <Route path="/movies" component={movies} />
       <Route path="/movies/:topic/:id" component={movie} />
-      <Route path="/comics/:id" component={comic} /> */}
+       */}
     </Routes>
     </Router>
     
