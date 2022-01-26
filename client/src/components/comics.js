@@ -59,13 +59,23 @@ class Comics extends React.Component {
     render() {
         
     let comicsMap = this.state.titles.map((obj) => {
-        return <p key={obj.order}>{obj.title}</p>;
+        return (
+            <div class="card m-2" key={obj.order}>
+            <div class="card-body">
+                {obj.title}
+            </div>
+          </div>
+            )
+        // <p key={obj.order}>{obj.title}</p>;
     })
     
     return (
-    <div className="container">
-        Comics
-        {comicsMap}
+    <div className="container mt-4">
+        <h1>~100 Doctor Strange Comics</h1>
+        <hr />
+        <div>
+            {comicsMap}
+        </div>
     </div>
     )
 }
