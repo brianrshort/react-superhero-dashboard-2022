@@ -30,7 +30,7 @@ class Movies extends React.Component {
             console.log(this.state.topics);
             //console.log(this.state.topics.indexOf(movie.topic.toString()));
             this.setState(prev => {
-                console.log(prev.topics);
+                //console.log(prev.topics);
                 let arr = [...prev.topics, movie.topic];
                 let unique = arr.filter(onlyUnique);
                 return {topics: unique};
@@ -83,8 +83,8 @@ class Movies extends React.Component {
             const objMap = this.state.titles.map(obj => {
                 if (obj.topic === string) {
                     return (
-                    <div class="card m-2" key={obj.topic + obj.order}>
-                        <div class="card-body">
+                    <div className="card m-2" key={obj.topic + obj.order}>
+                        <div className="card-body">
                             {obj.title}
                         </div>
                     </div>
@@ -96,9 +96,17 @@ class Movies extends React.Component {
         }
 
     let moviesMap = this.state.topics.map((string) => {
+        let split = string.split("");
+        console.log("Split: " + split);
+        let letter = string[0].toUpperCase();
+        console.log(letter)
+        split.splice(0, 1, letter);
+        console.log(split);
+        let joined = split.join("");
+        console.log(joined);
         return (
             <div key={string}>
-                <h2>{string}</h2>
+                <h2>{joined}</h2>
                 {filmMap(string)}
             </div>
         )
