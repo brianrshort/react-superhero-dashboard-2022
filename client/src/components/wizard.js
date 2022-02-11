@@ -33,3 +33,13 @@ const ranks = [
     }
 ];
 
+const abilities = [
+    "Fighting",
+    "Agility",
+    "Strength",
+    "Endurance",
+    "Reason",
+    "Intuition",
+    "Psyche"
+]
+
