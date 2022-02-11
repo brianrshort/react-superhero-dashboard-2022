@@ -1262,3 +1262,6 @@ const powerSelect = [
     },
 ]
 
+function makeARoll() {
+    return Math.ceil(Math.random() * 100);
+}
