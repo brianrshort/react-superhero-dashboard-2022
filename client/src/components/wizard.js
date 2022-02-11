@@ -1265,3 +1265,20 @@ const powerSelect = [
 function makeARoll() {
     return Math.ceil(Math.random() * 100);
 }
+
+
+function checkForEach(variable, random, array) {
+    array.forEach(obj => {
+        let newRange = []; 
+        for (var i = obj.range[0]; i <= obj.range[1]; i++) {
+            newRange.push(i);
+        }
+        if (newRange.includes(random)) {
+                variable = obj.property;
+        }
+    })
+    //console.log(variable);
+    return variable;
+}
+
+
