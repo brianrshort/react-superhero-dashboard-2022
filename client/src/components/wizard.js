@@ -1316,3 +1316,23 @@ function makePower() {
     return powerSet;
 }
 
+function makeWizard() {
+    const obj = {};
+    const abilityObj = {};
+    for (var i = 0; i < abilities.length; i++) {
+        const rand = makeARoll();
+        let rank;
+        rank = checkForEach(rank, rand, ranks);
+        //console.log(rank);
+        const ability = abilities[i];
+        abilityObj[ability] = rank;
+    }
+    obj.abilities = abilityObj;
+    let powers = makePower();
+    //console.log(powers);
+    obj.powers = powers;
+    console.log(obj);
+}
+
+makeWizard();
+//makePower();
