@@ -96,3 +96,70 @@ const powerRange = [
     }
 ]
 
+const powerCategories = [
+    {
+        range: [1,5],
+        property: "Defensive"
+    },
+    {
+        range: [6,11],
+        property: "Detection"
+    },
+    {
+        range: [12,16],
+        property: "Energy Control"
+    },
+    {
+        range: [17,24],
+        property: "Energy Emission"
+    },
+    {
+        range: [25,29],
+        property: "Fighting"
+    },
+    {
+        range: [30,31],
+        property: "Illusionary"
+    },
+    {
+        range: [32,35],
+        property: "Lifeform Control"
+    },
+    {
+        range: [36,40],
+        property: "Magic"
+    },
+    {
+        range: [41,47],
+        property: "Matter Control"
+    },
+    {
+        range: [48,53],
+        property: "Matter Conversion"
+    },
+    {
+        range: [54,57],
+        property: "Matter Creation"
+    },
+    {
+        range: [58,71],
+        property: "Mental Enhancement"
+    },
+    {
+        range: [72,85],
+        property: "Physical Enhancement"
+    },
+    {
+        range: [86,88],
+        property: "Power Control"
+    },
+    {
+        range: [89,92],
+        property: "Self-Alteration"
+    },
+    {
+        range: [93,100],
+        property: "Travel"
+    },
+]
+
