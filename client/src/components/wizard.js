@@ -1282,3 +1282,37 @@ function checkForEach(variable, random, array) {
 }
 
 
+function makePower() {
+    const rand = Math.ceil(Math.random() * 100);
+    //console.log(rand);
+    let powerLength;
+    powerLength = checkForEach(powerLength, rand, powerRange);
+    //console.log(powerLength);
+    let powerSet = [];
+    for (var i = 1; i <= powerLength; i++) {
+        let object = {};
+        let randOne = makeARoll();
+        let cat; 
+        cat = checkForEach(cat, randOne, powerCategories);
+        object.category = cat; 
+        
+        let randTwo = makeARoll();
+        let powerName;
+        powerSelect.forEach(obj => {
+            if (cat === obj.name) {
+                powerName = checkForEach(powerName,randTwo, obj.rolls);
+            }
+        });
+        object.power = powerName;   
+        
+        let randThree = makeARoll();
+        let powerLevel;
+        powerLevel = checkForEach(powerLevel, randThree, ranks);
+        object.powerLevel = powerLevel;
+        //console.log(object);
+        powerSet.push(object);
+    }
+    //console.log(powerSet);
+    return powerSet;
+}
+
