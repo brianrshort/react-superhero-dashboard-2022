@@ -78,7 +78,32 @@ function ComicTwo() {
         return newMap;
     }
 
+    return (
+        <div className="d-flex justify-content-center row m-5 p-5">
+        <div className="col-6">
+            <div className="card">
+            <img className="card-img-top" src={sample.image.small_url} alt="Card image cap" />
+            <div className="card-body">
+                <h5 className="card-title">{sample.volume.name} #{sample.issue_number}</h5>
+                <p><strong>Published:</strong> {makeDate(sample.cover_date)}</p> 
+                <p className="mb-0"><strong>Creators:</strong></p>
+                {creatorMap(sample.person_credits)}
+                <hr />
+                <div id="description"></div>                    
+                <hr />
+                <p><strong>Characters:</strong> {characterMap(sample.character_credits)}</p>
+                <p><strong>Locations:</strong> {characterMap(sample.location_credits)}</p>
+                <p><strong>Chattels:</strong> {characterMap(sample.object_credits)}</p>
+                <p><strong>Tags:</strong> {characterMap(sample.concept_credits)}</p>
+                <hr />
+                <p className="card-text"><strong>DB Data:</strong> Order/{data.comic_order} || CVID/{data.comicvine}</p>
+                <a href={sample.site_detail_url} className="btn btn-primary">Learn More</a>
+            </div>
+            </div>
+            </div>
+            </div>
         
+    )
     
 }
 
