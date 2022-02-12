@@ -66,7 +66,19 @@ function ComicTwo() {
         return newMap;
     }
 
-    
+    const capIt = string => {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
+    function creatorMap(array) {
+        let newMap = array.map(obj => {
+            let capped = capIt(obj.role);
+            return <p className="ml-3 my-0" key={obj.name}><em>{capped}</em>: {obj.name}</p>
+        });
+        return newMap;
+    }
+
+        
     
 }
 
