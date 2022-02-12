@@ -22,6 +22,20 @@ function ComicTwo() {
     const [ links, setLinks ] = useState("");
     const [ description, setDescription ] = useState("");
 
+    useEffect(() => {
+        let url = `https://comicvine.gamespot.com/api/issue/${data.comicvine}/?api_key=${config.comicvine}&format=json`;
+        //console.log(data);
+        //console.log(url);
+        //console.log(comicSample);
+        const descriptionElement = document.getElementById("description");
+        descriptionElement.innerHTML = sample.description;
+        // axios.get(url).then(response => {
+        //     console.log(response.data);
+        // })
+    }, []);
+
+
+
     
 }
 
