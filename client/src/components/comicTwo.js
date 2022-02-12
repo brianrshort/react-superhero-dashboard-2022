@@ -35,7 +35,17 @@ function ComicTwo() {
     }, []);
 
 
+    const monthNames = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
+    function makeDate(date) {
+        let split = date.split("-");
+        let month = parseInt(split[1]);
+        let monthName = monthNames[month];
+        let day = parseInt(split[2]).toString();
+        return `${monthName} ${day}, ${split[0]}`
+    }
+
+    
     
 }
 
