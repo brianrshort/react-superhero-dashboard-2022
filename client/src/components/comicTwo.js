@@ -45,6 +45,27 @@ function ComicTwo() {
         return `${monthName} ${day}, ${split[0]}`
     }
 
+    function getCharacters(array) {
+        let newArr = [];
+        array.forEach(obj => {
+            newArr.push(obj.name);
+        })
+        return newArr;
+    }
+
+    function characterMap(array) {
+        let newArr = getCharacters(array);
+        //console.log(newArr);
+        let newMap = newArr.map(name => {
+            if (newArr.indexOf(name) === newArr.length - 1) {
+                return <span key={name}>{name} </span>
+            } else {
+                return <span key={name}>{name}, </span>
+            }
+        })
+        return newMap;
+    }
+
     
     
 }
