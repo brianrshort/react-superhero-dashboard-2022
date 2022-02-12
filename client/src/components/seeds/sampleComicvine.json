@@ -1,0 +1,367 @@
+{
+    "aliases":null,
+    "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/issue\/4000-110835\/",
+    "character_credits":[
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/character\/4005-2212\/",
+            "id":2212,
+            "name":"Ancient One",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/ancient-one\/4005-2212\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/character\/4005-1456\/",
+            "id":1456,
+            "name":"Doctor Strange",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/doctor-strange\/4005-1456\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/character\/4005-27036\/",
+            "id":27036,
+            "name":"Dreamstalker",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/dreamstalker\/4005-27036\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/character\/4005-2120\/",
+            "id":2120,
+            "name":"Human Torch",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/human-torch\/4005-2120\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/character\/4005-2190\/",
+            "id":2190,
+            "name":"Invisible Woman",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/invisible-woman\/4005-2190\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/character\/4005-2151\/",
+            "id":2151,
+            "name":"Mr. Fantastic",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/mr-fantastic\/4005-2151\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/character\/4005-2646\/",
+            "id":2646,
+            "name":"Nightmare",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/nightmare\/4005-2646\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/character\/4005-2114\/",
+            "id":2114,
+            "name":"Thing",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/thing\/4005-2114\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/character\/4005-4328\/",
+            "id":4328,
+            "name":"Trapster",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/trapster\/4005-4328\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/character\/4005-3287\/",
+            "id":3287,
+            "name":"Wizard",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/wizard\/4005-3287\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/character\/4005-2215\/",
+            "id":2215,
+            "name":"Wong",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/wong\/4005-2215\/"
+        }],
+    "character_died_in":[],
+    "concept_credits":[
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/concept\/4015-46567\/",
+            "id":46567,
+            "name":"Aliens",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/aliens\/4015-46567\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/concept\/4015-49312\/",
+            "id":49312,
+            "name":"Anthology",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/anthology\/4015-49312\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/concept\/4015-42382\/",
+            "id":42382,
+            "name":"Comics Code Authority",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/comics-code-authority\/4015-42382\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/concept\/4015-55886\/",
+            "id":55886,
+            "name":"Deathtrap",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/deathtrap\/4015-55886\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/concept\/4015-56370\/",
+            "id":56370,
+            "name":"Dimensional Travel",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/dimensional-travel\/4015-56370\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/concept\/4015-56207\/",
+            "id":56207,
+            "name":"Flashback",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/flashback\/4015-56207\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/concept\/4015-56417\/",
+            "id":56417,
+            "name":"Horse Riding",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/horse-riding\/4015-56417\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/concept\/4015-55759\/",
+            "id":55759,
+            "name":"Magic",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/magic\/4015-55759\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/concept\/4015-55961\/",
+            "id":55961,
+            "name":"Occult",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/occult\/4015-55961\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/concept\/4015-57333\/",
+            "id":57333,
+            "name":"Secret Headquarters",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/secret-headquarters\/4015-57333\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/concept\/4015-55821\/",
+            "id":55821,
+            "name":"Silver Age of Comics",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/silver-age-of-comics\/4015-55821\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/concept\/4015-55925\/",
+            "id":55925,
+            "name":"Superhero Costumes",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/superhero-costumes\/4015-55925\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/concept\/4015-49870\/",
+            "id":49870,
+            "name":"Superpowers",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/superpowers\/4015-49870\/"
+        }],
+    "cover_date":"1963-07-01",
+    "date_added":"2008-06-06 11:21:28",
+    "date_last_updated":"2019-11-14 13:37:45",
+    "deck":null,
+    "description":"<h2>Contents<\/h2><ul><li>The Human Torch Vs. The Wizard And Paste-Pot Pete!<\/li><li>Silent Stranger<\/li><li>We Search the Stars!<\/li><li>Dr. Strange Master of Black Magic!<\/li><\/ul><p>-The first appearance of Doctor Strange as he comes under attack by both Nightmare and the man he's trying to help.<\/p>",
+    "first_appearance_characters":null,
+    "first_appearance_concepts":null,
+    "first_appearance_locations":null,
+    "first_appearance_objects":null,
+    "first_appearance_storyarcs":null,
+    "first_appearance_teams":null,
+    "has_staff_review":false,
+    "id":110835,
+    "image":{
+        "icon_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_avatar\/0\/229\/138224-18066-110835-1-strange-tales.jpg",
+        "medium_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_medium\/0\/229\/138224-18066-110835-1-strange-tales.jpg",
+        "screen_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_medium\/0\/229\/138224-18066-110835-1-strange-tales.jpg",
+        "screen_large_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/screen_kubrick\/0\/229\/138224-18066-110835-1-strange-tales.jpg",
+        "small_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_small\/0\/229\/138224-18066-110835-1-strange-tales.jpg",
+        "super_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_large\/0\/229\/138224-18066-110835-1-strange-tales.jpg",
+        "thumb_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/scale_avatar\/0\/229\/138224-18066-110835-1-strange-tales.jpg",
+        "tiny_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/square_mini\/0\/229\/138224-18066-110835-1-strange-tales.jpg",
+        "original_url":"https:\/\/comicvine.gamespot.com\/a\/uploads\/original\/0\/229\/138224-18066-110835-1-strange-tales.jpg",
+        "image_tags":"All Images"
+        },
+    "issue_number":"110",
+    "location_credits":[
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/location\/4020-58341\/",
+            "id":58341,
+            "name":"Dream Dimension",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/dream-dimension\/4020-58341\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/location\/4020-57400\/",
+            "id":57400,
+            "name":"Greenwich Village",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/greenwich-village\/4020-57400\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/location\/4020-57208\/",
+            "id":57208,
+            "name":"Kamar-Taj",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/kamar-taj\/4020-57208\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/location\/4020-55811\/",
+            "id":55811,
+            "name":"Long Island",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/long-island\/4020-55811\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/location\/4020-57225\/",
+            "id":57225,
+            "name":"Manhattan",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/manhattan\/4020-57225\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/location\/4020-41183\/",
+            "id":41183,
+            "name":"New York City",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/new-york-city\/4020-41183\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/location\/4020-56310\/",
+            "id":56310,
+            "name":"New York State",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/new-york-state\/4020-56310\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/location\/4020-55966\/",
+            "id":55966,
+            "name":"Sanctum Sanctorum",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/sanctum-sanctorum\/4020-55966\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/location\/4020-56254\/",
+            "id":56254,
+            "name":"Space",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/space\/4020-56254\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/location\/4020-58928\/",
+            "id":58928,
+            "name":"Sue Storm's Suburban Home",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/sue-storms-suburban-home\/4020-58928\/"
+        }],
+    "name":null,
+    "object_credits":[
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/object\/4055-57389\/",
+            "id":57389,
+            "name":"Amulet Of Agamotto",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/amulet-of-agamotto\/4055-57389\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/object\/4055-57621\/",
+            "id":57621,
+            "name":"Trapster's Paste-Gun",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/trapsters-paste-gun\/4055-57621\/"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/object\/4055-54225\/",
+            "id":54225,
+            "name":"Unstable Molecules",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/unstable-molecules\/4055-54225\/"
+        }],
+    "person_credits":[
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/person\/4040-27729\/",
+            "id":27729,
+            "name":"Artie Simek",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/artie-simek\/4040-27729\/",
+            "role":"letterer"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/person\/4040-22527\/",
+            "id":22527,
+            "name":"Dick Ayers",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/dick-ayers\/4040-22527\/",
+            "role":"inker, cover"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/person\/4040-42204\/",
+            "id":42204,
+            "name":"Ernie Hart",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/ernie-hart\/4040-42204\/",
+            "role":"writer"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/person\/4040-44922\/",
+            "id":44922,
+            "name":"H.E. Huntley",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/he-huntley\/4040-44922\/",
+            "role":"writer"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/person\/4040-5614\/",
+            "id":5614,
+            "name":"Jack Kirby",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/jack-kirby\/4040-5614\/",
+            "role":"penciler, cover"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/person\/4040-43627\/",
+            "id":43627,
+            "name":"John Duffy",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/john-duffy\/4040-43627\/",
+            "role":"letterer"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/person\/4040-4068\/",
+            "id":4068,
+            "name":"Larry Lieber",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/larry-lieber\/4040-4068\/",
+            "role":"penciler"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/person\/4040-7533\/",
+            "id":7533,
+            "name":"Matt Fox",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/matt-fox\/4040-7533\/",
+            "role":"inker"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/person\/4040-44894\/",
+            "id":44894,
+            "name":"Robert Bernstein",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/robert-bernstein\/4040-44894\/",
+            "role":"writer"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/person\/4040-9681\/",
+            "id":9681,
+            "name":"Stan Goldberg",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/stan-goldberg\/4040-9681\/",
+            "role":"colorist"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/person\/4040-40467\/",
+            "id":40467,
+            "name":"Stan Lee",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/stan-lee\/4040-40467\/",
+            "role":"editor"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/person\/4040-4026\/",
+            "id":4026,
+            "name":"Steve Ditko",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/steve-ditko\/4040-4026\/",
+            "role":"penciler, inker"
+        },
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/person\/4040-44893\/",
+            "id":44893,
+            "name":"Terry Szenics",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/terry-szenics\/4040-44893\/",
+            "role":"letterer"
+        }],
+    "site_detail_url":"https:\/\/comicvine.gamespot.com\/strange-tales-110\/4000-110835\/",
+    "store_date":null,
+    "story_arc_credits":[],
+    "team_credits":[
+        {
+            "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/team\/4060-3804\/",
+            "id":3804,
+            "name":"Fantastic Four",
+            "site_detail_url":"https:\/\/comicvine.gamespot.com\/fantastic-four\/4060-3804\/"
+        }],
+    "team_disbanded_in":[],
+    "volume":{
+        "api_detail_url":"https:\/\/comicvine.gamespot.com\/api\/volume\/4050-18066\/",
+        "id":18066,
+        "name":"Strange Tales",
+        "site_detail_url":"https:\/\/comicvine.gamespot.com\/strange-tales\/4050-18066\/"
+        }
+    }
