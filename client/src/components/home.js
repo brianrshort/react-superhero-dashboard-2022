@@ -14,10 +14,10 @@ function Home() {
         </div>
         <div className="row">
             <div className="col-6 border border-success">
-                Click for movies
+                <Link to="/movies">Click for movies</Link>
             </div>
             <div className="col-6 border border-success">
-                Click for comics                
+                <Link to="/comics">Click for comics</Link>                
             </div>
         </div>
     </div>
