@@ -339,7 +339,7 @@ const comicsArr = [
     },
     {
         title: "doctor+strange+sorcerer+supreme+annual",
-        issueStart: 1,
+        issueStart: 2,
         issueEnd: 4,
         releaseYear: 1992,
         comicvine: {
