@@ -3,10 +3,10 @@ import { useParams } from "react-router-dom";
 //import axios from "axios";
 import crypto from "crypto-js";
 
-import comicArr from "./seeds/fullComicSeed";
+//import comicArr from "./seeds/fullComicSeed";
 import config from "./config/config";
 import emptyMarvel from "./seeds/emptyMarvel";
-
+import hundoComicArr from "./seeds/phaseTwo/strange/hundoComics";
 
 function Comic() {
     //Get params
@@ -17,7 +17,7 @@ function Comic() {
     const [ data, setData ] = useState(emptyMarvel);
     const [ date, setDate ] = useState(emptyMarvel.dates[0].date);
     const [ image, setImage ] = useState(`${emptyMarvel.images[0].path}.${emptyMarvel.images[0].extension}`)
-    const [ comicData, setComicData ] = useState(comicArr[parseInt(id) - 1]);
+    const [ comicData, setComicData ] = useState(hundoComicArr[parseInt(id) - 1]);
 
     //Use params and comicData to get display data from Marvel developer api
     //To use the Marvel API, though, you have to use a timestampe, private key, public key,
