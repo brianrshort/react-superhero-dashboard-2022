@@ -204,3 +204,33 @@ let portmanArr = [
     },
 ]
 
+let movieArr = [];
+function createMovie(arr, topic) {
+    let index = 1;
+    let rev = arr.reverse();
+    for (var i = 0; i < rev.length; i++) {
+        let obj = {};
+        obj.movie = "thor";
+        obj.topic = topic;
+        obj.title = rev[i].t;
+        obj.release_year = rev[i].y;
+        obj.movie_order = index;
+        // Movie.create(obj)
+        //     .then(dbExample => {
+        //         console.log(dbExample);
+        //     })
+        //     .catch(({ message }) => {
+        //         console.log(message);
+        //     })
+        movieArr.push(obj);
+        index++;
+    }
+}
+
+let revWaititi = waititiArr.reverse();
+let portmanRev = portmanArr.reverse();
+
+createMovie(revWaititi, "waititi");
+createMovie(portmanRev, "portman");
+
+export default movieArr;
